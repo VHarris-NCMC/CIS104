@@ -1,0 +1,12 @@
+	Although the discussion of project size (in terms of bits) as it relates to version management software is
+undoubtedly one that is debated among IT professionals, my stance on the matter is that size is nearly irrelevant
+to whether version control should be used or not. Granted, if a project is significant in size, say for example
+several Gigabytes of raw code, then version control should certainly be implemented. However, I would not say
+that it is due to the size itself, but rather the amount of time that could be lost should something break,
+or be lost entirely. For example, if an equally large project was the product of open-source code, with only a
+couple of lines of code injected for testing purposes, then that may not merit the use of version control.
+
+	On the contrary, a very small project, such as one that is less than 100KB, used by a networking team to
+push configuration settings out to their network devices would absolutely benefit from the use of version control.
+Although that size of a project may seem negligible, version control would benefit the team by assisting with
+the monitoring of configuration drift, as well as accounting. So, it stands to reason that the size of a file,
