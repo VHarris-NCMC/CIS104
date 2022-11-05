@@ -5,9 +5,9 @@ firstName, lastName = names
 # Date
 date = "11/05/2022"
 # Name of the assignment
-assignmentName = "Exercise 3.1"
+assignmentName = "Exercise 6.6"
 # Assignment Description / Quesion
-assignmentDescription = "Exercise 1: Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours."
+assignmentDescription = "Exercise 6: Read the documentation of the string methods at https://docs.python.org/library/stdtypes.html#string-methods You might want to experiment with some of them to make sure you understand how they work. strip and replace are particularly useful."
 
 
 def begin():
@@ -24,10 +24,6 @@ def main():
 
     begin()
 
-    hours = input("\n Input Hours: ")
-
-    rate = input("\n Input Rate: ")
-    print(hours, rate)
 
 
 main()
